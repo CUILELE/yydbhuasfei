@@ -1,0 +1,56 @@
+@charset "utf-8";
+/* CSS Document */
+
+*{ margin:0; padding:0; list-style:none; border:0;}
+body,td,input,button{ font-size:14px; color:#444444; font-family:Arial,Helvitica,Verdana,Tohoma,san-serif;}
+body{ -webkit-touch-callout:none; -webkit-tap-highlight-color:rgba(0,0,0,0); -webkit-text-size-adjust:none;}
+html,body{ height:100%; background:#f5f5f5;}
+
+div,form,ul,li,dl,dt,dd,p,span{ overflow:hidden;}
+img{ max-width:100%; vertical-align:middle; border:0;}
+input, select, textarea{ outline:none;}
+i,em{ font-style:normal;}
+a{ color:#444444; text-decoration:none;}
+a:hover{ color:#dd2727; text-decoration:none;}
+
+.clr{ clear:both; font-size:0px; height:0px; overflow:hidden;}
+
+
+/*===========*/
+.top{ background:rgba(255,255,255,1); padding:15px;}
+
+.top1_l{ width:80px; float:left; margin-right:15px;}
+.top1_r h1{ font-size:24px; line-height:24px; font-weight:normal;}
+.top1_r h2{ font-size:14px; font-weight:normal; padding:8px 0 0;}
+.top1_r h3{ font-size:16px; font-weight:normal; color:#ffa800;}
+.top1_r h4{ font-size:14px; font-weight:normal;}
+
+.top2{ text-align:center; padding:10px 0 15px; color:#01892a;}
+.top2 span{ padding:0 5px; font-size:18px;}
+.top2 span i{ font-size:14px;}
+
+.top3 span{ display:block; padding:12px 0; text-align:center; color:#ffffff; background:#dd2727; font-size:18px;}
+.top3 span img{ height:20px; margin-right:10px;}
+
+
+/*============*/
+.info{ padding:15px; border-bottom:1px solid #d7d7d7;}
+.info h1{ font-size:18px; border-left:5px solid #dd2727; padding:0 0 0 10px; margin:0 0 15px;}
+.info1{ line-height:24px;}
+.info1 b{ font-size:16px;}
+
+.info2{ padding:15px 0 0;}
+.info2 a{ display:block; padding:12px 0; text-align:center; color:#ffffff; background:#dd2727; font-size:18px;}
+.info2 a img{ height:20px; margin-right:10px;}
+
+/*-----焦点幻灯片-----*/
+.slideBox{ position:relative; overflow:hidden; width:100%;}
+.slideBox .hd{ position:absolute; bottom:15px; left:0; z-index:1; width:100%; text-align:center;}
+.slideBox .hd li{ display:inline-block; width:10px; height:10px; -webkit-border-radius:50%; -moz-border-radius:50%; border-radius:50%; background:rgba(0,0,0,0.5); text-indent:-9999px; overflow:hidden; margin:0 5px; cursor:pointer;}
+.slideBox .hd li.on{ background:rgba(221,39,39,1);}
+.slideBox .bd{ position:relative; z-index:0; width:100%;}
+.slideBox .bd li{ position:relative; text-align:center; width:100%;}
+.slideBox .bd li img{ /*background:url(../pics/loading.gif) center center no-repeat; vertical-align:top;*/ width:100%; /*图片宽度100%，达到自适应效果 */}
+.slideBox .bd li a{ -webkit-tap-highlight-color:rgba(0,0,0,0);  }  /* 去掉链接触摸高亮 */
+/*.slideBox .bd li .tit{ display:block; width:100%;  position:absolute; bottom:0; text-indent:10px; height:28px; line-height:28px; background:url(../pics/focusBg.png) repeat-x; color:#fff;  text-align:left;}*/
+

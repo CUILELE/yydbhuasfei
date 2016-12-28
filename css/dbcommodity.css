@@ -1,0 +1,117 @@
+@charset "utf-8";
+/* CSS Document */
+
+*{ margin:0; padding:0; list-style:none; border:0;}
+body,td,input,button{ color:#444444; font-family:Arial,Helvitica,Verdana,Tohoma,san-serif;}
+body{ font-size:14px;-webkit-touch-callout:none; -webkit-tap-highlight-color:rgba(0,0,0,0); -webkit-text-size-adjust:none;}
+html,body{ height:100%; background:#f5f5f5;}
+
+div,form,ul,li,dl,dt,dd,p,span{ overflow:hidden;}
+img{ max-width:100%; vertical-align:middle; border:0;}
+input, select, textarea{ outline:none;}
+i,em{ font-style:normal;}
+a{ color:#444444; text-decoration:none;}
+a:hover{ color:#dd2727; text-decoration:none;}
+
+.clr{ clear:both; font-size:0px; height:0px; overflow:hidden;}
+/*===========*/
+
+.top{
+	position: relative;
+	width: 100%;
+	text-align: center;
+}
+.top div img{
+	width: 100%;
+}
+.top a{
+	position: absolute;
+	left: 50%;
+	top: 47%;
+	margin-left: -4.25rem;
+	width: 8.5rem;
+	height: 1.125rem;
+	display: inline-block;
+}
+.top a img{
+	width: 100%;
+}
+.content{
+	position: relative;
+	width: 100%;
+	height: 28.075rem;
+	margin-top: -1px;
+	background: url(../img/content.jpg) center top no-repeat;
+	background-size:100% 100%;
+}
+.content_top{
+	width: 14.55rem;
+	height: 9.325rem;
+	background: url(../img/con_top_bg.png) no-repeat;
+	background-size:100% auto;
+	margin: 0.55rem auto;
+}
+.content_top_text{
+	width: 12.675rem;
+	height: 7.975rem;
+	padding: 0.7rem 0.95rem;
+	color: #c40023;
+}
+.content_top_text h1{
+	font: 0.7rem/1.125rem "微软雅黑";
+	font-weight: bold;
+}
+.content_top_text p{
+	font:0.45rem/0.8rem "微软雅黑";
+}
+.content_top_pic{
+	height: 3.45rem;	
+	text-align: center;
+	margin-bottom: 0.4rem;
+}
+.content_top_pic img{
+	height: 100%;
+}
+.content_down{
+	width: 14.55rem;
+	height: 15rem;
+	background: url(../img/con_down_bg.png) no-repeat;
+	background-size:100% auto;
+	margin: 0.55rem auto;
+}
+.conten_down_text{
+	padding: 0.7rem 0.95rem;
+}
+.conten_down_text h2{
+	font: 0.7rem/1.125rem "微软雅黑";
+	font-weight: bold;
+	color: #c40023;
+}
+.conten_down_text p{
+	font:0.45rem/0.8rem "微软雅黑";
+}
+.conten_down_pic{
+	height: 8.5rem;
+	text-align: center;
+}
+.conten_down_pic img{
+	height: 100%;
+}
+.foot{
+	font-size: 0.3rem;
+	color: #fed96b;
+	text-align: center;
+	line-height: 0.55rem;
+	font-family: "微软雅黑";
+}
+.dlpic{
+	width: 3.275rem;
+	height: 3.95rem;
+	position: absolute;
+	right: -0.5rem;
+	top: 30%;
+}
+.dlpic img{
+	width: 100%;
+	height: 100%;
+}
